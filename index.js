@@ -6,7 +6,7 @@ var projects = document.querySelector('.project')
 var page_bd = document.querySelector('.bd')
 var sideNav  = document.querySelector('.sideNav')
 var skill= document.querySelector('.skill')
-var git = document.querySelector('.fa-github')
+
 about.addEventListener("click", function() {
     container.innerHTML = 
     "<h1 style = 'font-size: 65px; ' class = 'homeHead'><span class = 'aaryan'>About</span><span class = 'bhurtel'>Me<span></h1><p class = 'bd'>Hey, I'm Aaryan Bhurtel, an 8th grader at Chelsea World School, and coding is my jam. I'm into languages like HTML, CSS, JavaScript, Tailwind, and Bootstrap. It all started when I was a curious kid in Nepal, and my parents noticed my fascination with computers. They got me into computer classes, and I quickly fell in love with coding, especially HTML and CSS. <br><br> Now, at Chelsea World School, I've taken my coding skills up a notch. I spend my free time learning and experimenting. I've moved beyond the basics to tackle JavaScript, which lets me make websites do cool things. I've built my websites from scratch, created blogs, forms, and even some simple games. My classmates and teachers are often amazed by what I can do. Coding isn't just a hobby; it's a way for me to bring ideas to life and solve real-world problems. I'm excited about the future and can't wait to keep learning and creating with code.<br><br> In conclusion, my journey into the world of coding is nothing short of inspiring. Starting as a curious child in Nepal, I have grown into a proficient coder with a passion for HTML, CSS, JavaScript, Tailwind, and Bootstrap.</p>"
