@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Mono:wght@600&display=swap');
+
+* { 
+    margin: 0 ; 
+    padding: 0; 
+    font-family: 'Roboto Mono'
+}
+
+body { 
+    display: flex; 
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px; 
+}
+.sideNav {
+    height: 100vh; 
+    width: 19rem; 
+    background-color: #1d1919;
+    color: gray; 
+    align-items: center;
+}
+
+.navList {
+    list-style-type: none;
+    margin-top: 4rem; ;
+    text-align: center; 
+}
+
+.navItem {
+    color: gray;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-right: 12px;
+}
+
+.active {
+    color: yellow; 
+}
+
+.non-active:hover{
+    color: yellow;
+}
+
+.navImg>img {
+    height: 132px; 
+    border-radius: 50%;
+    width: 126px;
+    margin-top: 7rem; 
+    margin-left:  45px ;
+}
+.container {
+    height: 100%; 
+    width: 100vw; 
+}
+.homeHead {
+    padding-left: 34px;
+}
+.aaryan { 
+    color: gray; 
+    font-size: 65px ;
+}
+
+.bhurtel {
+    color: #db6a20;
+    font-size: 58px; 
+}
+
+.bd {
+    padding-left: 34px;
+    color: gray; 
+    margin-top: 13px;
+    margin-right: 8rem; 
+}
+
+.homeHead {
+    margin-top: 7rem; 
+}
+
+.fab {
+    color: blue; 
+}
+
+.icons {
+    margin-top: 3rem;
+    padding-left: 34px;
+}
+
+.fa-github {
+    color: black; 
+}
+.fa-linkedin {
+    color: royalblue;
+}
+
+.skill {
+    margin-left: 1px;
+}
+.skill1, .skill2, .skill3, .skill4 {
+border-radius: 5px;
+margin-left: 9px;
+}
+
+.skill1 { 
+    border: 3px solid #db6a20;
+}
+
+.skillhtml {
+    background-color: #db6a20;
+    width: 90%;
+}
+
+.skill2 { 
+    border: 3px solid royalblue;
+}
+
+.skillcss {
+    background-color: royalblue;
+    width: 88%;
+
+}
+.skill3 { 
+    border: 3px solid yellow;
+}
+
+.skillJS {
+    background-color: yellow;
+    width: 85%;
+}
+.skill4 { 
+    border: 3px solid purple;
+}
+
+.skillbt {
+    background-color: purple;
+    width: 75% 
+}
+
+.cards {
+    display: flex;
+}
+
+.pr1 {
+    width: 270px;
+}
+
+.pr1 > img {
+    height: 170px;
+    width: 270px; 
+}
+.pr1 > h1,h3  {
+    text-align: center;
+}
+.pr1 > p {
+    text-align: center;
+    text-align: justify;
+}
+.pr2 {
+    width: 270px;
+}
+
+.pr2 > img {
+    height: 170px;
+    width: 270px; 
+}
+.pr2 > h1,h3  {
+    text-align: center;
+}
+.pr2 > p {
+    text-align: center;
+    text-align: justify;
+}
+.pr3 {
+    width: 270px;
+}
+
+.pr3 > img {
+    height: 170px;
+    width: 270px; 
+}
+.pr3 > h1,h3  {
+    text-align: center;
+}
+.pr3 > p {
+    text-align: center;
+    text-align: justify;
+}
+
+
+
+.pr2, .pr3 {
+    margin-left: 3rem;
+}
+.pr1, .pr2, .pr3 {
+    border-radius: 7px;
+    border: 3px solid black
+}
